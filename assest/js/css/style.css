@@ -1,0 +1,273 @@
+/* navbar start */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.windows {
+    display: flex;
+    gap: 25px;
+    color: black;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.free {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: #dc392d;
+}
+
+.line {
+    height: 2px;
+    background-color: #dc392d;
+}
+
+@media only screen and (max-width:900px) {
+    .windows {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .information_icon {
+        display: none;
+    }
+}
+
+/* navbar end */
+
+/* section relative start */
+#relative {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menyu {
+
+    position: fixed;
+    right: 15px;
+    top: 90px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    line-height: 50px;
+}
+
+#content {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    line-height: 50px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    background: #1D809F;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+#content.show {
+    width: 250px;
+    max-height: 1000px;
+    color: white;
+}
+
+.content_show_li_start {
+    font-size: 1.2rem;
+    background: rgba(52, 58, 64, 0.1);
+    height: 80px;
+    line-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.content_show_li{
+    color: white;
+}
+
+.container_portfolio {
+    margin: 3rem;
+}
+
+.stylisth {
+    font-size: 60px;
+    margin: 1rem;
+    color: rgb(37, 36, 36);
+}
+
+.bootstrap {
+    font-size: 35px;
+}
+
+#find {
+    font-size: large;
+    margin: 3rem;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #1D809F;
+    background-color: #1D809F;
+    color: white;
+
+}
+
+/* section relative end */
+
+/* section relative_stylish start */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+
+}
+
+.wrapper_contanier {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.wrapper_stylisth {
+    font-size: 32px;
+    margin: 1rem;
+}
+
+.wrapper_h {
+    font-size: 17px;
+}
+
+#what {
+    font-size: medium;
+    margin: 3rem;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #1d1e1e;
+    background-color: #1d1e1e;
+    
+}
+
+/* section relative_stylish end */
+#relative_services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    background-color: #1D809F;
+}
+.services_contanier{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin: 3rem;
+}
+.s_h3{
+    color: rgb(188, 152, 9);
+    margin: 1rem;
+
+}
+.s_h2{
+    color: white;
+}
+.services_icons{
+    display: flex;
+    margin: 3rem;
+}
+.icon_sevices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    color: white;
+    
+}
+.bcg_radius{
+    background-color: white;
+    color: #1D809F;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.text{
+    padding: 2rem;
+    color: white;
+}
+
+/* section relative_services */
+
+
+/* section relative_download start */
+#relative_download{
+    width: 100%;
+    height: 87vh;
+    background-image:linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
+        url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container_portfolio_download{
+    margin: 3rem;
+}
+
+.stylisth_download {
+    width: 450px;
+    font-size: 36px;
+    margin: 2rem;
+    color: rgb(37, 36, 36);
+}
+
+#download{
+    font-size: large;
+    margin: 3rem;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #1D809F;
+    background-color: #1D809F;
+    color: white;
+
+}
+html{
+    scroll-behavior: smooth;
+}
